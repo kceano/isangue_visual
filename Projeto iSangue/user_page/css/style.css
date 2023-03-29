@@ -1,0 +1,136 @@
+/*
+    Projeto WEB - Estrutura básica HTML e CSS
+    Desenvolvedor: Marcelo Miyajima
+    Data: 17/10/2022
+    Versão: 1.0
+*/ 
+
+/* Resetar o CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 140px;
+}
+.logo {
+    width: 200px;
+    margin-left: 3rem;
+}
+
+.button {
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%);
+    margin-right: 5px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 3rem 0 4rem 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+    z-index: 99999999;
+}
+
+.historico img {
+    width: 200px;
+    height: 200px;
+}
+
+.dados {
+    display: flex;
+    justify-content: center;
+}
+
+.configs {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.72);
+    color: white;
+} 
+
+.historico {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 49, 49, 0.74);
+    text-align: center;
+    box-shadow: 30px 30px 100px 10px  inset rgba(236, 76, 76, 0.836);
+}
+
+
+.center{
+    justify-content: center;
+    display: flex
+}
+.configs:hover{
+    background-color: rgba(255, 0, 0, 0.993);
+}
+.foto:hover{
+    color: rgb(0, 0, 0);
+       
+}
+footer {
+    margin-top: 4rem;
+    background-color: rgba(255, 49, 49, 0.74);
+    text-align: center;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    text-align: left;
+
+}
+
+.box-footer {
+    font-weight: bold;
+    font-size: large;
+}
+
+.box-footer ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.box-footer li {
+    padding: 5px;
+}
+
+.box-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.box-footer a:hover {
+    color: white;
+
+}
+
+footer p {
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: black;
+}

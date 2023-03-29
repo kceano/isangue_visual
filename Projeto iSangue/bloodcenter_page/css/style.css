@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*
+FALTA:
+MENU
+LOGO
+BOX PARA HEMOCENTROS ENCONTRADOS
+AVATAR DO USUARIO
+*/
+
+header
+{
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+}
+.logo
+{
+    width: 200px;
+    margin-left: 3rem;
+}
+body
+{
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(83, 80, 80);
+}
+section
+{
+    padding: 3rem 0 4rem 0;
+}
+.gray
+{
+    background-color: rgb(187, 184, 184);
+}
+.optionbuscar
+{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+h1
+{
+/*rem significa Root EM
+16px = 1rem*/
+    font-size: 2rem;
+    font-weight: normal;
+}
+h1.light
+{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+h1.result
+{
+    padding: 2rem 0 0 0;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(146, 41, 41);
+    font-weight: bold;
+}
+.intro p{
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+.button-location, .button-address
+{
+
+    padding: 10px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%);
+}
+.button-location
+{
+    background-color: rgb(146, 41, 41);
+    color: white;
+}
+.button-address
+{
+    background-color: white;
+    color: rgb(146, 41, 41);
+}
+.addtyping
+{
+    display: flex;
+    justify-content: center;
+}
+.mapinha{
+    display: flex;
+    justify-content: center;
+}
+.searchadd
+{
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.searchadd p{
+    margin-right: 1rem;
+}
+
+.container
+{
+    display: inline;
+    justify-content: center;
+}
+input[type='address']
+{
+    padding: 0.5px;
+    width: 800px;
+    border-radius: 5px;
+    border: 1px solid rgb(146, 41, 41);
+}
+.buttonendereco
+{
+    padding: 5px 12px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%);
+    background-color: rgb(146, 41, 41);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.buttonendereco:hover{
+    background-color: rgb(255, 0, 0);
+}
+.mapinha img
+{
+    width: 500px;
+    border-radius: 50px;
+}
+table
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+table td{
+   
+    padding: 2rem;
+}
+table a{
+    
+    color: rgb(146, 41, 41);
+}
+.button-location:hover{
+    background-color: rgb(255, 0, 0);
+}
+.button-address:hover{
+    background-color: rgb(87, 77, 77);
+    color: white;
+}
+/* .results
+{   
+    display: flex;
+    justify-content: center;
+    
+   
+    background-size: 100px 80px;
+    padding: 3rem;
+} */
+/* .column
+{   
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: rgb(226, 224, 224);
+    display: inline;
+    justify-content: center;
+    border-radius: 3rem;
+}
+.column a{
+    color: rgb(146, 41, 41);
+}
+.column2
+{   
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: rgb(226, 224, 224);
+    display: inline;
+    justify-content: center;
+    border-radius: 3rem;
+}
+.column2 a{
+    color: rgb(146, 41, 41);
+} */
+
+
+footer {
+    margin-top: 4rem;
+    background-color: rgba(255, 49, 49, 0.74);
+    text-align: center;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    text-align: left;
+
+}
+
+.box-footer {
+    font-weight: bold;
+    font-size: large;
+}
+
+.box-footer ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.box-footer li {
+    padding: 5px;
+}
+
+.box-footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.box-footer a:hover {
+    color: white;
+
+}
+
+footer p {
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: black;
+}

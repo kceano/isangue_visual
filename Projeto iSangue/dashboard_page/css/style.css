@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    margin-left: 3rem;
+    background-color: blue;
+    width: 200px;
+}
+
+header .options {
+    display: flex;
+    padding: 4rem;
+    justify-items: center;
+}
+
+.options img {
+    width: 30px;
+    padding-top: 3px;
+}
+
+.options img:hover{
+    cursor: pointer;
+}
+
+.options .perfil {
+    padding: 10px;
+    margin-left: 3rem;
+    text-align: center;
+    background-color: rgb(237, 81, 81);
+    border: none;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+.options .perfil:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    
+}
+
+.intro-dash{
+    display: inline-block;
+    justify-content: center;
+}
+
+main .intro-dash{
+    background-color: rgba(255, 49, 49, 0.74);
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+}
+.intro-dash h1, p{
+    margin-left: 5rem;
+    font-weight: 300;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.news img{
+    width: 100%;
+    padding: 1rem;
+}
+.news h2{
+    font-size: medium;
+    text-align: left;
+}
+.news h3{
+    font-size: smaller;
+    font-weight: 300;
+    text-align: left;
+    align-items: flex-start;
+}
+.column{
+    margin-top: 3rem;
+    width: 50%;
+    text-align: center;
+    padding: 3rem;
+    
+
+}
+.column h1{
+    
+    margin-bottom: 3rem;
+    
+}
+.column h5 {
+
+   font-size: large;
+    font-weight: 300;
+}
+.column h5:hover {
+
+    font-size: large;
+    font-weight: bold;
+    transition: 1s;
+    cursor: pointer;
+}
+.notices{
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom-style: solid;
+    border-color: red;
+    padding-bottom: 2rem;
+}
+.newsblock{
+    border-right-style: solid;
+}
+.doacao{
+    background-color:  #454545;
+    color: white;
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 200;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 2px 2px 15px 2px   rgb(11, 11, 11);
+}
+.doacao:hover{
+    background-color: #202020;
+}
+.agendar:hover {
+    background-color: #ff0000;
+}
+.agendar{
+    background-color: rgb(237, 81, 81);
+}
+.doacoes h1 {
+    margin-top: 3rem;
+}
+.doacoes ul{
+    padding: 1rem;
+    list-style-type: none;     
+    background-color: #c9bdbd;
+    border-radius: 1rem;
+    text-align: left;
+   
+}
+.doacoes div{
+    padding: 1rem;
+    
+}
+.doacoes li{
+    padding: 4px;
+    margin-left: 3rem;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 4rem;
+    background-color: rgba(255, 49, 49, 0.74);
+    text-align: center;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    text-align: left;
+
+}
+
+.box-footer {
+    font-weight: bold;
+    font-size: large;
+}
+
+.box-footer ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.box-footer li {
+    padding: 5px;
+}
+
+.box-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.box-footer a:hover {
+    color: white;
+
+}
+
+footer p {
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
